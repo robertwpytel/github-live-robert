@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="/testing/SearchServlet">
+<p>Actor's First Name</p>
+<input type="text" name="actorName"/>
+<p>Search Pattern</p>
+<input type="text" name="searchPattern"/>
+<input type="submit" class = "btn btn-success"/>
+<button type="button" class = "btn btn-danger" onclick="alert('Searches actors based on first name')">Description of Search</button>
+</form>
+</body>
+</html>
